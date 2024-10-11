@@ -15,7 +15,6 @@ public class CarSortMain {
         while(iterator.hasNext()) {
             CarSortInfo car = iterator.next();
             System.out.println(car.productYear + " " + car.carName + " " + car.price);
-
         }
     }
 }
